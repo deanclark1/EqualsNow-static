@@ -1,0 +1,141 @@
+@import 'theme';
+@import 'fonts';
+
+
+.opportunity-hero {
+    padding: 5rem 0;
+
+    h1{
+        font-weight: 600;
+    }
+
+    a{
+        color: $white !important;
+        text-decoration: none;
+    }
+}
+.work-with-us {
+    background-color: #FBEBF6;
+    img {
+        width: 100%;
+    }
+}
+
+.job-opening-container {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: $shadow;
+    background-color: #ffffff;
+    a{
+        color: $white !important;
+        text-decoration: none;
+    }
+
+    h3 {
+        color: $primary-color;
+        font-weight: 600;
+    }
+
+    .secondary-color {
+        color: #BC2190;
+    }
+}
+
+.all-events {
+    background-color: #FAF5FE;
+    .job-opening-container {
+        .location, .date {
+            .fa-map-marker-alt {
+                color: $primary-color;
+            }
+            span {
+                color: #BC2190;
+            }
+        }
+        h3 {
+            color: $primary-color;
+        }
+    }
+}
+
+.events-hero {
+    background-image: url('/images/events-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    color: white;
+}
+
+
+
+.events-hero-text {
+    padding-top: 10rem;
+}
+
+.event-flyer {
+    width: 100%;
+    display: flex;
+
+    img {
+        width: 50%;
+        height: inherit;
+        margin: auto;
+    }
+}
+
+.heading {
+    padding-top: 3rem;
+}
+
+.facts a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.contact-us-hero {
+   background: linear-gradient(120.63deg, #A2D6FF 35.1%, #FFBFEA 75.72%);
+   padding: 4rem 0;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #5f2988;
+    outline: 0;
+    box-shadow: $purple-shadow;
+}    
+.wpcf7-submit {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: "Montserrat Bold";
+
+
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    // color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    // background-color: transparent;
+    border: 1px solid #5f2988;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.primary-color {
+    color: #5f2988;
+}

@@ -1,0 +1,169 @@
+.fw-600 {
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url("../fonts/Montserrat-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.opportunity-hero {
+  padding: 5rem 0;
+}
+
+.opportunity-hero h1 {
+  font-weight: 600;
+}
+
+.opportunity-hero a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.work-with-us {
+  background-color: #FBEBF6;
+}
+
+.work-with-us img {
+  width: 100%;
+}
+
+.job-opening-container {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 5px;
+  padding: 2rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(171, 173, 215, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(171, 173, 215, 0.2);
+  background-color: #ffffff;
+}
+
+.job-opening-container a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.job-opening-container h3 {
+  color: #5F2988;
+  font-weight: 600;
+}
+
+.job-opening-container .secondary-color {
+  color: #BC2190;
+}
+
+.all-events {
+  background-color: #FAF5FE;
+}
+
+.all-events .job-opening-container .location .fa-map-marker-alt, .all-events .job-opening-container .date .fa-map-marker-alt {
+  color: #5F2988;
+}
+
+.all-events .job-opening-container .location span, .all-events .job-opening-container .date span {
+  color: #BC2190;
+}
+
+.all-events .job-opening-container h3 {
+  color: #5F2988;
+}
+
+.events-hero {
+  background-image: url("/images/events-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+  color: white;
+}
+
+.events-hero-text {
+  padding-top: 10rem;
+}
+
+.event-flyer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.event-flyer img {
+  width: 50%;
+  height: inherit;
+  margin: auto;
+}
+
+.heading {
+  padding-top: 3rem;
+}
+
+.facts a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.contact-us-hero {
+  background: linear-gradient(120.63deg, #A2D6FF 35.1%, #FFBFEA 75.72%);
+  padding: 4rem 0;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #5f2988;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(50, 20, 79, 0.3);
+          box-shadow: 0 0 0 0.25rem rgba(50, 20, 79, 0.3);
+}
+
+.wpcf7-submit {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #5F2988;
+  border-color: #5F2988;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "Montserrat Bold";
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  border: 1px solid #5f2988;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.primary-color {
+  color: #5f2988;
+}
+/*# sourceMappingURL=join-us.css.map */

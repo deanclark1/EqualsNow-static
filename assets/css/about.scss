@@ -1,0 +1,62 @@
+@import 'theme';
+@import 'fonts';
+
+.aboutus-hero {
+    padding-top: 4rem;
+    h1 {
+        color: #5F2988;
+        line-height: 50px;
+        font-weight: 600;
+    }
+    p {
+        line-height: 29px;
+    }
+}
+a {
+    color: $primary-color;
+}
+a:hover {
+    color: $dark-purple;
+}
+
+.our-story {
+    background-color: #F9F3FE;
+    h3 {
+        color: #5F2988;
+        font-weight: 600;
+    }
+    .activities{
+        margin-top: 4rem;
+
+        img {
+            width: 100%;
+            border-radius: .5rem;
+        }
+    }
+
+}
+ 
+.core-values img {
+    width: 2rem;
+}
+
+
+.team {
+    h2 {
+        color: $primary-color;
+        font-weight: 600;
+    }
+    img {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+}
+
+.mainText {
+    color: $primary-color;
+    font-weight: 600;
+}
+.subText {
+    color: $primary-color;
+}

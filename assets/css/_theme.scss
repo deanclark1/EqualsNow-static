@@ -1,0 +1,34 @@
+// Colors
+$primary-color: #5F2988;
+$secondary-color: #BC2190;
+$light-purple: #F9F3FE;
+$dark-purple: #502472;
+$shade-purple: #F5E9FF;
+$black: #000000;
+$white: #ffffff;
+$grey: #808080;
+
+// Font family
+$font-regular: 'Montserrat Regular';
+$font-bold: 'Montserrat Bold';
+$font-black: 'Montserrat Black';
+
+// Font size
+$font-small : .875em;
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+// box shadow
+$shadow: 0 .5rem 1rem rgba(171, 173, 215, 0.2);
+$shadow-sm: 0 .125rem .25rem rgba(171, 173, 215, 0.2);
+$card-shadow: 0px 4px 27px rgba(182, 190, 206, 0.3);
+$bookings-icon-shadow:  0px 4px 27px rgba(182, 190, 206, 0.3), inset 0px 0px 12px #EDBDCA;
+$portfolio-icon-shadow:  0px 4px 27px rgba(182, 190, 206, 0.3), inset 0px 0px 12px #F5D4A4;
+$payments-icon-shadow:  0px 4px 27px rgba(182, 190, 206, 0.3), inset 0px 0px 12px #CBB6E7;
+$analytics-icon-shadow:  0px 4px 27px rgba(182, 190, 206, 0.3), inset 0px 0px 12px #F0C8B8;
+$clients-icon-shadow: 0px 4px 27px rgba(182, 190, 206, 0.3), inset 0px 0px 12px #A4B1F5;
+$purple-shadow:  0 0 0 0.25rem rgba(50, 20, 79,0.3)
+

@@ -1,0 +1,44 @@
+.fw-600 {
+  font-weight: 600;
+}
+
+.overlay {
+  background-color: #0000005c;
+  width: 100%;
+  height: inherit;
+}
+
+.programs-hero-text {
+  padding-top: 5rem;
+  color: #ffffff;
+}
+
+.programs-hero-text h1 {
+  font-weight: 600;
+}
+
+.all-programs {
+  background-color: #FAF5FE;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card .fa-map-marker-alt {
+  color: #5F2988;
+}
+
+.card .location p {
+  color: #BC2190;
+}
+
+.card h5 {
+  color: #5F2988;
+  font-weight: 600;
+}
+
+.card .card-text {
+  line-height: 27px;
+}
+/*# sourceMappingURL=programs.css.map */

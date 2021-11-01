@@ -1,0 +1,36 @@
+@import 'theme';
+.overlay {
+    background-color: #0000005c;
+    width: 100%;
+    height: inherit;
+}
+.programs-hero-text {
+    padding-top: 5rem;
+    color: $white;
+    h1 {
+        font-weight: 600;
+
+    }
+}
+.all-programs {
+    background-color: #FAF5FE;
+}
+
+.card {
+    a {
+        text-decoration: none;
+    }
+    .fa-map-marker-alt {
+        color: $primary-color;
+    }
+    .location p{
+        color: $secondary-color;
+    }
+    h5 {
+        color: $primary-color;
+        font-weight: 600;
+    }
+    .card-text {
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,64 @@
+@import 'main';
+
+
+.factsheet-hero , .legal-mechanisms-hero{
+    padding: 5rem 0;
+    background-color: $light-purple;
+
+    h1 {
+        font-weight: 600;
+
+    }
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+.primary-color {
+    color: #5f2988 !important;
+}
+
+.facts {
+    img{
+        width: 9rem;
+        margin: auto;
+        display: block;
+
+        @media (min-width: 768px) { 
+            width: 16rem;
+
+        }
+    }
+
+    h4 {
+        font-size: 25px;
+
+        @media (min-width: 768px) { 
+            font-size: 35px;
+
+        }
+    }
+    .button {
+        a {
+            color: $white !important;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.file-box {
+    width: 70%;
+    height: auto;
+    background-color: #FDDDF4;
+    padding: 2rem;
+    margin: auto;
+    img {
+        /* width: 10rem;
+        margin: auto; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
