@@ -60,6 +60,7 @@
 
 }
 .article-page {
+    margin-top: 5rem;
     .gradient-header {
         background: linear-gradient(180deg, #FFE7F8 0%, rgba(255, 255, 255, 0) 100%);
     }
@@ -71,6 +72,9 @@
     }
     .btn-icon {
         color: $primary-color;
+    }
+    img {
+        width: 100%;
     }
    
 }

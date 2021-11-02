@@ -11,7 +11,7 @@
     font-family: $font-regular;
 }
 body {
-    margin-top: 50px;
+    margin-top: 82px;
     color: $black;
     overflow-x: hidden !important;
     max-width: 100% !important;
@@ -375,6 +375,7 @@ footer{
     svg {
         color: $primary-color !important;
     }
+  
 
     li{
        
@@ -384,6 +385,12 @@ footer{
             color: $black;
             &:hover{
                 color: $black;
+            }
+
+            i {
+               
+                color: $primary-color;
+            
             }
         }
     }

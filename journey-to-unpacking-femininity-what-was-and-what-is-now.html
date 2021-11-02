@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equals Now</title>
+    <title>Journey to Unpacking Femininity: What was and what is now</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="FdneQpHD"></script>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand top js-scroll-trigger pl-0 pl-md-3 " href="index.html">
@@ -62,7 +64,7 @@
 
                 <ul class="navbar-nav ms-auto ">                
                     <li class="nav-item ">
-                        <a class="nav-link pe-0" href="tact-">  
+                        <a class="nav-link pe-0" href="contact-us.html">  
                             <button class="btn btn-primary">Contact us</button>
                         </a>
                     </li> 
@@ -76,30 +78,49 @@
             <div class="container">
                 <div class="row">
                     <div class="d-flex align-items-center py-3 back-icon">
-                        <a class="btn btn-icon me-2" href="<?php echo site_url('/blog')?>"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left icon text-dark"><polyline points="15 18 9 12 15 6"></polyline></svg></a>
-                        <a href="<?php echo site_url('/blog')?>"><h5>Back to Blog</h5></a>
+                        <a class="btn btn-icon me-2" href="blog.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left icon text-dark"><polyline points="15 18 9 12 15 6"></polyline></svg></a>
+                        <a href="blog.html"><h5>Back to Blog</h5></a>
                     </div>
                 </div>
                 <div class="row  pt-0 pt-md-4  offset-lg-1">
                     <div class=" pb-2 pb-md-4">
-                        <h6 class=""><?php echo get_the_category_list(',') ?></h6>
-                        <h1 class="heading-2 "><?php the_title();?></span></h1>
+                        <h6 class="">Uncategorized</h6>
+                        <h1 class="heading-2 ">Journey to Unpacking Femininity: What was and what is now</h1>
                         <div class="d-flex flex-column flex-md-row justify-content-between pt-2 pt-md-3">
                             <div class="d-flex">
-                                <!-- <p class="pe-4">Posted By <?php the_author_posts_link(); ?></p>  -->
-                                <p>Posted on <?php the_date('F j, Y');?></p>
+                                <p>Posted on October 4, 2021</p>
                             </div>
                             <div class="d-flex social-icons align-self-center">
                                 <a class="btn btn-icon align-self-center" href=""><i class="fas fa-share-alt fa-lg"></i></a>
-                                <a class="me-3 btn btn-icon" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" title="Share on Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
-                                <a class="me-3 btn btn-icon" href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>&text=<?php echo the_title(); ?>&via=<?php the_author_meta( 'twitter' ); ?>" title="Tweet this"><i class="fab fa-twitter fa-lg"></i></a>
-                            </div>
-                        
-                        
+                                <!-- <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small">
+                                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                                        <i class="fab fa-facebook-f fa-lg"></i>
+                                    </a>
+                                </div> -->
+                                <div class="fb-share-button align-self-center" data-href="http://127.0.0.1:5500/journey-to-unpacking-femininity-what-was-and-what-is-now.html" data-layout="button_count" data-size="small">
+                                    <a target="_blank" class=" align-self-center" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%3A5500%2Fjourney-to-unpacking-femininity-what-was-and-what-is-now.html&amp;src=sdkpreparse" >
+                                        <i class="fab fa-facebook-f fa-lg"></i>
+                                    </a>
+                                </div>
+                              
+                                <!-- <a class="me-3 btn btn-icon" href="" title="Share on Facebook"><i class="fab fa-facebook-f fa-lg"></i></a> -->
+                                <!-- <a class="me-3 btn btn-icon" href="" title="Tweet this"><i class="fab fa-twitter fa-lg"></i></a> -->
+
+                                <a target="_blank"
+                                   href="https://twitter.com/intent/tweet?text=Journey to Unpacking Femininity: What was and what is now&url=https://deanclark1.github.io/EqualsNow-static//journey-to-unpacking-femininity-what-was-and-what-is-now.html">
+                                    <i class="fab fa-twitter fa-lg px-1 "></i>
+                                </a>
+                            </div>    
                         </div>
                         <p>
-                            <?php the_content(); ?>
+                            <img src="./images/blog/PicsArt_02-21-08.46.41.png" alt="">
                         </p> 
+                        <p>I have always had a love-hate relationship with my gender. I grew up identifying as what society and my aunt would call ‘garcon-mangue’ (French for ‘tomboy’). Running away from everything typically associated with femininity, more substantially makeup, presumed “girly” clothes and domestic chores, my identity constantly had a different meaning to people around me. The difference was even more present than I was aware of.</p>
+                        <p>Anytime someone suggested that “you are not like other girls”, which happened very frequently because of the chalked up sexism and plain ignorance, a part of me welcomed that observation.. I have often questioned why this is so. Is it that I see myself more as a man or is it just some pretty intense internalized misogyny of a young girl, in a patriarchal society that sees women as less humans?</p>
+                        <p>I have spent a major part of my life trying to deconstruct this stereotype within myself, an endeavor with its own bouts of anxiety and depressive episodes but one that was sort of my gateway towards self-acceptance. This disconstrue of what femininity means to me led to the realization that my problems with it stems less from wanting to be a man and more from wanting their freedom.  The relatively much better peace society affords them for just existing, for just being men.</p>
+                        <p>It is about a fight that was set out for me before I even started breathing. The fight for equality and the freedom of my gender to live, to just exist without the shackles that continue to exist as a result of society and the patriarchy. I wish I knew and understood most of these earlier on. That it’s not women that I have a problem with, just society and what it expects of them. That I am not less of a girl because I like my comfort and and for me that means no make-up ever if I can get away with it. It also means that I get to dress for comfort and maintain a severe dislike for cleaning up after men. It means that as a girl I can be more than what society imposes on me and that is okay.</p>
+                        <p>About Author</p>
+                        <p> <i>Fatou Sarr is a  22 year old Gambian pursuing a Bachelor of Law  at the University of the Gambia. When she is not being a student, she takes photography lessons at Cinatrix Media or  writes poetry. Fatou is very passionate about mental health and wishes to always play a part in breaking the stigma around it in the Gambian society.</i></p>
                     </div>
                 </div>
             </div>
@@ -111,8 +132,8 @@
                     
                         <div class="d-flex social-icons align-self-center">
                             <a class="btn btn-icon align-self-center" href=""><i class="fas fa-share-alt fa-lg"></i></a>
-                            <a class="me-3 btn btn-icon" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" title="Share on Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
-                            <a class="me-3 btn btn-icon" href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>&text=<?php echo the_title(); ?>&via=<?php the_author_meta( 'twitter' ); ?>" title="Tweet this"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a class="me-3 btn btn-icon" href="" title="Share on Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a class="me-3 btn btn-icon" href="" title="Tweet this"><i class="fab fa-twitter fa-lg"></i></a>
                         </div>
                     </div>
                 </div>
@@ -129,136 +150,25 @@
     
             <div class="container pe-0">
                 <div class="owl-carousel owl-theme blog-slide">
-                    <?php 
-                        $homePagePosts = new wp_Query(array(
-                            'posts_per_page' => 10,
-                            // 'meta_key' => 'blog_featured_image',
-                            // 'orderby' => 'meta_value_img',
-                            // 'order' => 'ASC'
-                    
-                        ));
-                 
-                        while($homePagePosts -> have_posts()) {
-                            $homePagePosts->the_post(); ?>
-                    
-                        <div class="item">
-                            <div class="card blog-card h-100 zoom-on-hover ">
-                                <a class="blog-link" href="<?php the_permalink() ?>">
-                                    <div class="image-wrapper">
-                                        <?php if( get_field('blog_featured_image') ): ?>
-                                            <img class="img-responsive card-img-top" src="<?php the_field('blog_featured_image'); ?>" alt="<?php the_title(); ?>">
-                                        <?php endif; ?>
-                                    </div>
-                                    <div class="card-body">
-                                        <span class="card-text truncate-1-lines"><?php echo get_the_category_list(',') ?></span>
-                                        <h5 class="card-title pt-2 truncate-2-lines"><?php the_title(); ?></h5>
-                                        <p class="card-text truncate-2-lines"> 
-                                            <?php
-                                                if (has_excerpt()){
-                                                    echo get_the_excerpt();
-                                                }else{
-                                                    echo wp_trim_words(get_the_content(), 18);
-                                                }
-                                            ?>
-                                        </p>
+                    <div class="item"> 
+                        <div class="card blog-card h-100 zoom-on-hover ">
+                            <a class="blog-link stretched-link" href="journey-to-unpacking-femininity-what-was-and-what-is-now.html">
+                                <div class="image-wrapper">
+                                     <img class="img-responsive card-img-top" src="./images/blog/PicsArt_02-21-08.46.41.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <span class="card-text truncate-1-lines">Uncategorized</span>
+                                    <h5 class="card-title pt-2 truncate-2-lines">Journey to Unpacking Femininity: What was and what is now</h5>
+                                    <p class="card-text truncate-3-lines"> 
+                                        I have always had a love-hate relationship with my gender. I grew up identifying as what society and my aunt would call ‘garcon-mangue’ (French for ‘tomboy’).
+                                    </p>
                                   
-                                        <span>
-                                            <!-- <small class="text-muted"><?php the_author_posts_link(); ?>  -->
-                                            <!-- <br> 
-                                            <?php the_date('F j, Y');?></small> -->
-                                        </span>
-                                    </div>
-                                </a>
-                            
-                            </div>
-                        </div>
-
-                        <?php }
-                    ?>
-                    <!-- <div class="item">
-                        <div class="card blog-card zoom-on-hover ">
-                            <a class="blog-link" href="#!">
-                                <div class="image-wrapper">
-                                    <img src="<?php echo get_theme_file_uri('./images/jotai.jpg'); ?>" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <span class="card-text truncate-1-lines">Jotai</span>
-                                    <h4 class="card-title pt-2 truncate-2-lines">Sips & Tak</h4>
-                                    <p class="card-text truncate-3-lines">The Gambia is easily a traditional society..</p>
-                                    <span><small class="text-muted">Elitesha Jallow <br> July 20th 2021</small></span>
                                 </div>
                             </a>
-                            
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="card blog-card zoom-on-hover ">
-                            <a class="blog-link" href="#!">
-                                <div class="image-wrapper">
-                                    <img src="<?php echo get_theme_file_uri('./images/jotai.jpg'); ?>" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <span class="card-text truncate-1-lines">Jotai</span>
-                                    <h4 class="card-title pt-2 truncate-2-lines">Sips & Tak</h4>
-                                    <p class="card-text truncate-3-lines">The Gambia is easily a traditional society..</p>
-                                    <span><small class="text-muted">Elitesha Jallow <br> July 20th 2021</small></span>
-                                </div>
-                            </a>
-                            
-                        </div>
-                    </div>  -->
-                    <!-- <div class="item">
-                        <div class="card blog-card zoom-on-hover ">
-                            <a class="blog-link" href="#!">
-                                <div class="image-wrapper">
-                                    <img src="<?php echo get_theme_file_uri('./images/jotai.jpg'); ?>" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <span class="card-text truncate-1-lines">Jotai</span>
-                                    <h4 class="card-title pt-2 truncate-2-lines">Sips & Tak</h4>
-                                    <p class="card-text truncate-3-lines">The Gambia is easily a traditional society..</p>
-                                    <span><small class="text-muted">Elitesha Jallow <br> July 20th 2021</small></span>
-                                </div>
-                            </a>
-                            
                         </div>
                     </div> 
-                    <div class="item">
-                        <div class="card blog-card zoom-on-hover ">
-                            <a class="blog-link" href="#!">
-                                <div class="image-wrapper">
-                                    <img src="<?php echo get_theme_file_uri('./images/jotai.jpg'); ?>" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <span class="card-text truncate-1-lines">Jotai</span>
-                                    <h4 class="card-title pt-2 truncate-2-lines">Sips & Tak</h4>
-                                    <p class="card-text truncate-3-lines">The Gambia is easily a traditional society..</p>
-                                    <span><small class="text-muted">Elitesha Jallow <br> July 20th 2021</small></span>
-                                </div>
-                            </a>
-                            
-                        </div>
-                    </div> 
-                    <div class="item">
-                        <div class="card blog-card zoom-on-hover ">
-                            <a class="blog-link" href="#!">
-                                <div class="image-wrapper">
-                                    <img src="<?php echo get_theme_file_uri('./images/jotai.jpg'); ?>" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <span class="card-text truncate-1-lines">Jotai</span>
-                                    <h4 class="card-title pt-2 truncate-2-lines">Sips & Tak</h4>
-                                    <p class="card-text truncate-3-lines">The Gambia is easily a traditional society..</p>
-                                    <span><small class="text-muted">Elitesha Jallow <br> July 20th 2021</small></span>
-                                </div>
-                            </a>
-                            
-                        </div>
-                    </div>            -->
                 </div>
             </div>
-
-    
 
         </section>
     </div>
@@ -346,14 +256,14 @@
 
         <div class="bottom">
            <div class="container">
-              <div class="text-center p-3  d-flex flex-column flex-md-row justify-content-between">
-                 <small>
-                    Equals Now © <span class="currentyear"></span>. All rights reserved.
-                 </small>
-                 <small class="pt-3 pt-md-0">
-                    Designed and Developed by <a class="" target="_blank" href="https://deanclark1.github.io/DoreenNtumy/">Doreen Ntumy.</a>
-                 </small>
-              </div>
+                <div class="text-center p-3  d-flex flex-column flex-md-row justify-content-between">
+                    <small>
+                        Equals Now © <span class="currentyear"></span>. All rights reserved.
+                    </small>
+                    <small class="pt-3 pt-md-0">
+                        Designed and Developed by <a class="" target="_blank" href="https://deanclark1.github.io/DoreenNtumy/">Doreen Ntumy.</a>
+                    </small>
+                </div>
            </div>
         </div>
 

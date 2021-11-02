@@ -33,7 +33,7 @@
 }
 
 body {
-  margin-top: 50px;
+  margin-top: 82px;
   color: #000000;
   overflow-x: hidden !important;
   max-width: 100% !important;
@@ -445,6 +445,10 @@ footer li a {
 
 footer li a:hover {
   color: #000000;
+}
+
+footer li a i {
+  color: #5F2988;
 }
 
 footer .copyright {
